@@ -29,14 +29,16 @@
                     <a href="" class="nav-item is-tab is-hidden-mobile">Share</a>
 
                 </div>
-                <div class="nav-right">
+                <div class="nav-right" style="overflow: visible;">
 
-                    @if(Auth::guest())
+                    @if(!Auth::guest())
                         <a href="" class="nav-item is-tab ">Login</a>
                         <a href="" class="nav-item is-tab ">Join</a>
                     @else
-                        <button class="nav-item is-tab">
-                            Hex Alex <span class="icon"><i class="fa fa-caret-down" /></span>
+                        <button class="dropdown is-aligned-right nav-item is-open is-tab">
+                            Hex Alex <span class="icon">
+                            <i class="fa fa-caret-down"></i>
+                            </span>
 
                             <ul class="dropdown-menu">
                                 <li><a href="#">Profile</li>
