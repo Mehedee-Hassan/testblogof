@@ -44,7 +44,7 @@
                                 <li><a href="#">Profile</li>
                                 <li><a href="#">Notifications</li>
                                 <li><a href="#">Settings</li>
-                                <li><a href="seperator"></li>
+                                <li class="seperator" ></li>
                                 <li><a href="#">Logout</li>
                                 
                             </ul>

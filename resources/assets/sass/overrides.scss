@@ -12,6 +12,27 @@
 		text-align: left;
 		box-shadow: 0 0 1px rgba(57,70,78,0.15) ,0px 20px 55px -8px rgba(57,70,78,0.25);
 	}
+	
+	li{
+		&.seperator{
+			border-top: 1px solid #ccc;
+			margin: 5px;
+		}
+
+		&>a{
+			margin: 5px 0 5p 10px;
+			display: block;
+
+			&:hover{
+				background-color: whitesmoke;
+			}
+
+		}
+
+	}
+
+
+
 	&.is-aligned-right .dropdown-menu{
 		right: 0;
 		left: auto;
@@ -20,5 +41,7 @@
 	&.is-open .dropdown-menu{
 		display: block;
 	}
+
+
 
 }
